@@ -1,4 +1,4 @@
-# position-simulator
+# Position-Simulator
 
 ## TEST APPLICATION 
 
@@ -15,8 +15,8 @@
 
 
 ## SETTING UP GIT REPO
-1.  Move to lt-position-simulator folde in cmd prompt
-2.  git init
+1. Move to lt-position-simulator folde in cmd prompt
+2. git init
 3. Go to Github and create repository lt-position-simulator
 4. git remote add origin https://github.com/moonesh/lt-position-simulator.git
 5. git add .
