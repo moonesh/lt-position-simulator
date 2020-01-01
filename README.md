@@ -19,5 +19,7 @@
 2 > git init
 3. Go to Github and create repository lt-position-simulator
 4. > git remote add origin https://github.com/moonesh/lt-position-simulator.git
-5. >git add   
+5. >git add .
+6. > git commit -m""
+7. > git push --set-upstream origin master  
 
