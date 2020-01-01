@@ -2,7 +2,7 @@
 
 ## TEST APPLICATION USING DOCKER CONTAINERS  
 
-1. Build Docker Image of position-simulator  
+1. Build Docker Image of position-simulator  [Right click on project > Run as Maven Build > clean package ==> mooneshkachroo/activemq:0.0.1-RELEASE ]  
 2. add network> docker network create locationtracker
 3. docker run -d -p 8161:8161 -p 61616:61616 --name myqueue --network locationtracker mooneshkachroo/activemq:0.0.1-RELEASE
 4. docker run -d --network locationtracker --env spring.activemq.broker-url=tcp://myqueue:61616 --env fleetman.position.queue=positionQueue mooneshkachroo/position-simulator:0.0.1-RELEASE
